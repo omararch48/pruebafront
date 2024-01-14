@@ -1,1 +1,128 @@
-/* You can add global styles to this file, and also import other style files */
+// variables
+:root {
+  // colors
+  --white:    #ffffff;
+  --yellow:   #ffff00;
+  --yellow-t: #ffff0060;
+  --blue:     #0394ff;
+  --gray-1:   #7b7b7b;
+  --gray-1-t: #7b7b7b50;
+  --gray-2:   #979797;
+  --gray-3:   #989898;
+  --black-1:  #000000;
+  --black-2:  #252525;
+  --black-3:  #0d0f12;
+  --black-4:  #080c0f;
+  --black-5:  #2c2c2c;
+  // fonts
+  --font-main: "Open Sans", sans-serif;
+}
+
+// settings
+*, *::before, *::after {
+  box-sizing: inherit;
+  margin:     0;
+  padding:    0;
+}
+ 
+html {
+  box-sizing: border-box;
+  font-size:  62.5%;
+}
+
+// utilities
+.color-white {
+  color: var(--white);
+}
+
+.color-yellow {
+  color: var(--yellow);
+}
+
+.color-blue {
+  color: var(--blue);
+}
+
+.color-gray-1 {
+  color: var(--gray-1);
+}
+
+.color-gray-2 {
+  color: var(--gray-2);
+}
+
+.color-gray-3 {
+  color: var(--gray-3);
+}
+
+.color-black-1 {
+  color: var(--black-1);
+}
+
+.color-black-2 {
+  color: var(--black-2);
+}
+
+.color-black-3 {
+  color: var(--black-3);
+}
+
+.color-black-4 {
+  color: var(--black-4);
+}
+
+.color-black-5 {
+  color: var(--black-5);
+}
+
+.background-color-white {
+  background-color: var(--white);
+}
+
+.background-color-yellow {
+  background-color: var(--yellow);
+}
+
+.background-color-blue {
+  background-color: var(--blue);
+}
+
+.background-color-gray-1 {
+  background-color: var(--gray-1);
+}
+
+.background-color-gray-2 {
+  background-color: var(--gray-2);
+}
+
+.background-color-gray-3 {
+  background-color: var(--gray-3);
+}
+
+.background-color-black-1 {
+  background-color: var(--black-1);
+}
+
+.background-color-black-2 {
+  background-color: var(--black-2);
+}
+
+.background-color-black-3 {
+  background-color: var(--black-3);
+}
+
+.background-color-black-4 {
+  background-color: var(--black-4);
+}
+
+.background-color-black-5 {
+  background-color: var(--black-5);
+}
+
+// body
+body {
+  background-color: var(--black-4);
+  color:            var(--white);
+  font-family:      var(--font-main);
+  margin-top:       7.9rem;
+}

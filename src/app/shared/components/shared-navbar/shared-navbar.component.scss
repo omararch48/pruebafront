@@ -1,0 +1,12 @@
+nav.shared-navbar {
+  align-items:     center;
+  justify-content: space-between;
+  display:         flex;
+  width:           100%;
+  padding:         0 4rem;
+
+  .title {
+    font-weight: 600;
+    font-size:   1.8rem;
+  }
+}

@@ -1,0 +1,10 @@
+<div class="orders-order-container">
+
+    <ng-container *ngIf="ordersList.length !== 0 ">
+        <orders-order *ngFor="let order of ordersList" [order]="order"></orders-order>
+    </ng-container>
+
+    <!-- <div *ngFor="let orderItem of ordersList | keyvalue">
+        <orders-order [order]="orderItem"></orders-order>
+    </div> -->
+</div>
